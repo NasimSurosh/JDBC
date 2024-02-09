@@ -10,7 +10,7 @@ public class Driver {
     
     try {
       // 1.  get a connection to a database
-      connection = DriverManager.getConnection("jdbc:mysql:localhost:3306/example", "root","Nasim646016");
+      connection = DriverManager.getConnection("  ", "root","  ");
       
       // 2. create statement
       statement = connection.createStatement();
